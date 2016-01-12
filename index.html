@@ -9,24 +9,20 @@
 	<link href="css/app.css" rel="stylesheet" />
 </head>
 <body>
-	<div class="content">
-		<div class="row">
-			<div class="columns">
-				<h1>Header</h1>
-			</div>
-			<form method="post" action="/">
-				<div class="large-6 columns">
-					<input type="text" name="name" placeholder="Name">
-				</div>
-				<div class="large-6 columns">
-					<input type="email" name="email" placeholder="Email">
-				</div>
-				<div class="columns">
-					<button type="submit" class="button">Submit</button>
-				</div>
-			</form>
-		</div>
+	<div class="row columns">
+		<h1>Header</h1>
 	</div>
+	<form method="post" action="/" class="row">
+		<div class="large-6 columns">
+			<input type="text" name="name" placeholder="Name">
+		</div>
+		<div class="large-6 columns">
+			<input type="email" name="email" placeholder="Email">
+		</div>
+		<div class="columns">
+			<button type="submit" class="button">Submit</button>
+		</div>
+	</form>
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/what-input.min.js"></script>
