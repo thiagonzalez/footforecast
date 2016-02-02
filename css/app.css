@@ -1,6 +1,9 @@
 /* Colors */
-body {
+body, .off-canvas-content {
   background-color: #000000; }
+
+.js-off-canvas-exit {
+  background-color: rgba(0, 0, 0, 0.75); }
 
 body, h1, h2, h3, h4, h5, h6 {
   color: #ffffff; }
@@ -21,6 +24,10 @@ body, h1, h2, h3, h4, h5, h6 {
 [type=text]:focus, [type=password]:focus, [type=date]:focus, [type=datetime]:focus, [type=datetime-local]:focus, [type=month]:focus, [type=week]:focus, [type=email]:focus, [type=number]:focus, [type=search]:focus, [type=tel]:focus, [type=time]:focus, [type=url]:focus, [type=color]:focus, textarea {
   color: #000000; }
 
+.menu-icon::after, .menu-icon:hover::after {
+  background-color: #ffffff;
+  box-shadow: 0 7px 0 #ffffff, 0 14px #ffffff; }
+
 /* Spacing */
 h1, h2, h3, h4, h5, h6 {
   line-height: 100%; }
@@ -32,5 +39,8 @@ h1, h2, h3, h4, h5, h6 {
 ul, ol {
   margin-left: 2rem;
   margin-top: 0; }
+
+.menu-icon {
+  margin: 0.5rem; }
 
 /*# sourceMappingURL=app.css.map */

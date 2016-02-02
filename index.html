@@ -15,20 +15,35 @@
 	<link href="css/app.css" rel="stylesheet" />
 </head>
 <body>
-	<div class="row columns">
-		<h1>Header</h1>
+	<div class="off-canvas-wrapper">
+		<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+			<div class="off-canvas position-left" id="left-nav" data-off-canvas>
+				
+				
+				
+			</div>
+			
+			<div class="off-canvas-content" data-off-canvas-content>
+				<button type="button" class="menu-icon" data-toggle="left-nav"></button>
+				
+				<div class="row columns">
+					<h1>Header</h1>
+				</div>
+				<form method="post" action="/" class="row">
+					<div class="large-6 columns">
+						<input type="text" name="name" placeholder="Name">
+					</div>
+					<div class="large-6 columns">
+						<input type="email" name="email" placeholder="Email">
+					</div>
+					<div class="columns">
+						<button type="submit" class="button">Submit</button>
+					</div>
+				</form>
+				
+			</div>
+		</div>
 	</div>
-	<form method="post" action="/" class="row">
-		<div class="large-6 columns">
-			<input type="text" name="name" placeholder="Name">
-		</div>
-		<div class="large-6 columns">
-			<input type="email" name="email" placeholder="Email">
-		</div>
-		<div class="columns">
-			<button type="submit" class="button">Submit</button>
-		</div>
-	</form>
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/what-input.min.js"></script>
