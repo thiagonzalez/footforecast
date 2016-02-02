@@ -1,9 +1,17 @@
 /* Colors */
-body, .off-canvas-content {
+body {
+  background-color: #ffffff; }
+
+.off-canvas-content {
   background-color: #000000; }
 
 .js-off-canvas-exit {
-  background-color: rgba(0, 0, 0, 0.75); }
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.off-canvas {
+  background-color: #ffffff; }
+  .off-canvas h1, .off-canvas h2, .off-canvas h3, .off-canvas h4, .off-canvas h5, .off-canvas h6 {
+    color: #000000; }
 
 body, h1, h2, h3, h4, h5, h6 {
   color: #ffffff; }
