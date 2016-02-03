@@ -5,15 +5,7 @@ body {
 .off-canvas-content {
   background-color: #000000; }
 
-.js-off-canvas-exit {
-  background-color: rgba(0, 0, 0, 0.5); }
-
-.off-canvas {
-  background-color: #ffffff; }
-  .off-canvas h1, .off-canvas h2, .off-canvas h3, .off-canvas h4, .off-canvas h5, .off-canvas h6 {
-    color: #000000; }
-
-body, h1, h2, h3, h4, h5, h6 {
+body, h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus {
   color: #ffffff; }
 
 .button {
@@ -35,6 +27,21 @@ body, h1, h2, h3, h4, h5, h6 {
 .menu-icon::after, .menu-icon:hover::after {
   background-color: #ffffff;
   box-shadow: 0 7px 0 #ffffff, 0 14px #ffffff; }
+
+.js-off-canvas-exit {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.invert {
+  background-color: #ffffff;
+  color: #000000; }
+
+.invert h1, .invert h2, .invert h3, .invert h4, .invert h5, .invert h6, .invert a, .invert a:hover, .invert a:visited, .invert a:focus {
+  color: #000000; }
+
+.invert .is-drilldown-submenu-parent > a::after {
+  border-color: transparent transparent transparent #000000; }
+.invert .js-drilldown-back::before {
+  border-color: transparent #000000 transparent transparent; }
 
 /* Spacing */
 h1, h2, h3, h4, h5, h6 {

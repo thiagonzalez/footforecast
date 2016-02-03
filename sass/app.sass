@@ -18,15 +18,7 @@ body
 .off-canvas-content
 	background-color: $bg-color-primary
 
-.js-off-canvas-exit
-	background-color: rgba( 0, 0, 0, 0.5 )
-
-.off-canvas
-	background-color: $fg-color-primary
-	h1, h2, h3, h4, h5, h6
-		color: $bg-color-primary
-
-body, h1, h2, h3, h4, h5, h6
+body, h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus
 	color: $fg-color-primary
 
 .button
@@ -48,6 +40,23 @@ body, h1, h2, h3, h4, h5, h6
 .menu-icon::after, .menu-icon:hover::after
 	background-color: $fg-color-primary
 	box-shadow: 0 7px 0 $fg-color-primary, 0 14px $fg-color-primary
+
+.js-off-canvas-exit
+	background-color: rgba( 0, 0, 0, 0.5 )
+
+.invert
+	background-color: $fg-color-primary
+	color: $bg-color-primary
+
+.invert
+	h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus
+		color: $bg-color-primary
+
+.invert
+	.is-drilldown-submenu-parent>a::after
+		border-color: transparent transparent transparent $bg-color-primary
+	.js-drilldown-back::before
+		border-color: transparent $bg-color-primary transparent transparent
 
 
 /* Spacing
