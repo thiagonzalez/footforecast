@@ -36,6 +36,10 @@ h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus
 	@extend .inverted-fg-color
 	@extend .inverted-bg-color
 
+.button:hover, .button:focus
+	@extend .standard-fg-color
+	@extend .standard-bg-color
+
 .menu-icon::after, .menu-icon:hover::after
 	background-color: $fg-color-primary
 	box-shadow: 0 7px 0 $fg-color-primary, 0 14px $fg-color-primary

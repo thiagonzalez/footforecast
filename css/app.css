@@ -1,6 +1,6 @@
 /* Colors */
 .standard-fg-color, body,
-.off-canvas, h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus, .invert .button,
+.off-canvas, h1, h2, h3, h4, h5, h6, a, a:hover, a:visited, a:focus, .button:hover, .button:focus, .invert .button,
 .invert .invert .invert .button,
 .invert .invert .invert .invert .invert .button,
 .invert .invert .invert .invert .invert .invert .invert .button, .invert .invert,
@@ -46,7 +46,7 @@
   color: #ffffff; }
 
 .standard-bg-color, body,
-.off-canvas, .invert .button,
+.off-canvas, .button:hover, .button:focus, .invert .button,
 .invert .invert .invert .button,
 .invert .invert .invert .invert .invert .button,
 .invert .invert .invert .invert .invert .invert .invert .button, .invert .invert,
